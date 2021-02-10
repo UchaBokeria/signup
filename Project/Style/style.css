@@ -1,0 +1,130 @@
+.SignUp {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width:50%;
+  margin:2% 25%;
+  height:90vh;
+  background:rgba(78,78,78,1);
+}
+#success{color:white;}
+#fail{color:rgba(238,86,86,1);font-size:1.5vw;}
+input, button, select{
+  outline:0;
+  border:0;
+  border-radius: 3px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+  width:25%;
+  height:3vh;
+}
+h1 {color:white;}
+input, #country{
+  width:50%;
+  height:4vh;
+  padding-left: 3%;
+}
+label > input {width:85%;padding-left: 6%;}
+label{
+  color:white;
+  position: relative;
+  height:5vh;
+  width:50%;
+  display: flex;
+}
+label > i{
+  color:#333;
+  position: absolute;
+  right:3%;
+  cursor:pointer;
+}
+
+button{
+  cursor:pointer;
+}
+#secmobile{display: none;}
+.sel select{
+  right:3%;
+  top:15%;
+  position: absolute;
+  width:40%;
+}
+.sel input{
+  width:60%;
+  padding-left:6%;
+}
+.sel{
+  position: relative;
+  display: flex;
+  width:50%;
+  background: #fff;
+}
+.terms button{
+  width:30%;
+  height:6vh;
+  letter-spacing: 2px;
+  margin-left: 35%;
+  background: rgba(56,200,83,1);
+}
+.terms h1{color:black;}
+.terms{
+  color:black;
+  display: none;
+  padding:1%;
+  position: absolute;
+  overflow: scroll;
+  z-index: 1;
+  width: 60%;
+  height: 50%;
+  background: #eee;
+}
+#darkBg{
+  display: none;
+  position: absolute;
+  z-index: 0;
+  width:100%;
+  height:100vh;
+  background: #333;
+  opacity: 0.5;
+}
+
+#showTerms{ cursor:pointer; color:white;font-size:1vw;}
+#signup{
+  width:30%;
+  height:7vh;
+  background: rgba(31,31,31,1);
+  color:white;
+  letter-spacing: 2px;
+}
+.calendar-container{
+  background: #333;
+  color:white;
+  position: absolute;
+  z-index: 100;
+  width:60%;
+  height:90vh;
+}
+.date{
+  font-size: 1.7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.calendarHide{
+  background: rgba(203,65,65,1);
+  color:white;
+  width:10%;
+  height:5vh;
+}
+.calendarShow{
+  width:10%;
+  height:5vh;
+  cursor:pointer;
+  z-index: 100;
+
+}
+#addMobile{ color:white; }
+#delMobile{ color:rgba(238,86,86,1); }
